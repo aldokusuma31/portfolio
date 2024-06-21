@@ -17,7 +17,7 @@ export default function Header() {
                 height={30}
                 priority
                 />
-                <span className="text-slate-900">by<span className="text-lg text-slate-900 font-bold">AKW</span></span>
+                <Link href="/" className="text-slate-900">by<span className="text-lg text-slate-900 font-bold">AKW</span></Link>
             </div>
             <nav className="hidden md:flex md:pr-4 md:space-x-6 lg:space-x-10">
                 <Link href="/about" className="text-slate-900 hover:text-primary-deep-blue">About</Link>
